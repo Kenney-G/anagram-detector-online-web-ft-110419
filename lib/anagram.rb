@@ -11,7 +11,7 @@ class Anagram
       anagram.select {|a| a.split("").sort == word.split("").sort}
   end
   
-  alphabet = [a-z]
+  alphabet = ['a'..'z']
   
   
 end  
