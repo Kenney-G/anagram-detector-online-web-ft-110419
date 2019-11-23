@@ -10,5 +10,8 @@ class Anagram
   def match(anagram)
       anagram.select {|a| a.split("").sort == word.split("").sort}
   end
-
+  
+  alphabet = [a-z]
+  
+  
 end  
